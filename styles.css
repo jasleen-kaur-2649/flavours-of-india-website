@@ -245,3 +245,16 @@ a {
 a:hover {
   text-decoration: underline rgba(51, 51, 51, 0.9);
 }
+
+a.links-to-connect {
+  color: #ff9933;
+  opacity: 70%;
+  transition: all 150ms ease-in-out;
+}
+
+a.links-to-connect:hover {
+  /* color: #ff9933; */
+  opacity: 100%;
+  text-decoration: underline rgba(255, 153, 51, 0.7);
+  /* text-decoration: none; */
+}
